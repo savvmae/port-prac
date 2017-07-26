@@ -1,0 +1,84 @@
+body {
+  background-color: #222;
+}
+nav{
+  padding-top: 40px;
+}
+.nav-title{
+  font-family: 'Bad Script';
+  font-size: 125%;
+}
+
+
+.app-body{
+  background-color:#1d4444;
+  padding: 40px;
+}
+.white {
+  color: white;
+}
+
+.dev-name {
+  padding-top: 30px; 
+}
+
+.offset{
+  position: relative;
+  bottom: 80px;
+  box-shadow:  rgba(0, 0, 0, 0.22) -2px 9px 5px 0px;
+  border-radius: 50px;
+}
+.headings {
+  font-family: 'Bad Script';
+  font-size: 80px;
+}
+.sub-headings {
+  font-family: Raleway;
+}
+.primary-text{
+  font-size: 125%;
+  line-height: 3rem;
+  font-family: Raleway;
+  color: #DEDDDD;
+}
+.fa {
+  font-size: 1.3em;
+}
+
+.about {
+  color: #fff;
+}
+
+.table{
+  font-family: Raleway;
+}
+
+.email{
+  background-color: rgb(34, 34, 34);
+  color: white;
+  font-family: Raleway;
+
+}
+
+footer{
+  text-align: center;
+  color: #fff;
+  padding-bottom: 20px;
+}
+
+.bullet {
+  list-style: initial;
+  margin: 20px 0px;
+}
+
+.findus {
+  margin: 50px;
+}
+
+.padding {
+  padding: 20px;
+}
+
+.radius {
+  border-radius: 50px;
+}
