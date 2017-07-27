@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { Link } from 'react-router-dom';
+import { NavLink } from 'react-router-dom';
 
 
 export default class BaseLayout extends Component {
@@ -35,16 +35,22 @@ export default class BaseLayout extends Component {
             <div className="navbar-header">
               <ul className="nav navbar-nav">
                 <li style={navTitle}>
-                  <Link to="/">Savannah</Link>
+                  <NavLink activeStyle={{color: "yellow"}} exact to="/">Savannah</NavLink>
                 </li>
                 <li>
-                  <Link to="/Home">Home</Link>
+                  <NavLink activeStyle={{color: "yellow"}} exact to="/Home">Home</NavLink>
                 </li>
                 <li>
-                  <Link to="/About">About</Link>
+                  <NavLink activeStyle={{color: "yellow"}} exact to="/About">About</NavLink>
                 </li>
                 <li>
-                  <Link to="/Portfolio">Portfolio</Link>
+                  <NavLink activeStyle={{color: "yellow"}} exact to="/Portfolio">Portfolio</NavLink>
+                </li>
+                <li>
+                  <NavLink activeStyle={{color: "yellow"}} exact to="/Contact">Contact</NavLink>
+                </li>
+                <li>
+                  <NavLink activeStyle={{color: "yellow"}} exact to="/References">References</NavLink>
                 </li>
               </ul>
             </div>

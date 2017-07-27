@@ -14,6 +14,8 @@ import About from './components/About';
 import Portfolio from './components/Portfolio';
 import Home from './components/Home';
 import Savannah from './components/Savannah';
+import Contact from './components/Contact';
+import References from './components/References';
 
 
 ReactDOM.render(
@@ -23,7 +25,9 @@ ReactDOM.render(
         <Route path="/Portfolio" component={Portfolio} />
         <Route path="/Home" component={Home} />
         <Route path="/About" component={About} />
-        <Route path="/" component={Savannah} />
+        <Route path="/Contact" component={Contact} />
+        <Route path="/References" component={References} />
+        <Route exact path="/" component={Savannah} />
       </Switch>
     </BaseLayout>
   </BrowserRouter>
